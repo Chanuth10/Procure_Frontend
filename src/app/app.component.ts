@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { AuthService } from './services/auth.service';
-
+//Main component
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

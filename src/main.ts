@@ -1,3 +1,4 @@
+// main file -  importing the main module which is AppModule passing it to the bootstrap module
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

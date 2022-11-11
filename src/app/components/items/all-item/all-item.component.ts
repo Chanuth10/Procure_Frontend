@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ItemService} from "../../../services/item/item.service";
 
-@Component({
+@Component({  
   selector: 'app-all-item',
   templateUrl: './all-item.component.html',
   styleUrls: ['./all-item.component.css']

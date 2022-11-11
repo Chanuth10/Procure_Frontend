@@ -31,7 +31,7 @@ export class AddUserComponent implements OnInit {
 
   types = [
     { value: 'procurement_staff', viewValue: 'Procurement Staff'},
-    { value: 'staff_supervisor', viewValue: 'Office Manager'},
+    { value: 'staff_supervisor', viewValue: 'Staff_supervisor'},
     { value: 'site_manager', viewValue: 'Site Manager'}
   ];
 

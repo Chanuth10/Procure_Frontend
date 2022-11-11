@@ -26,7 +26,7 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 import { AddInvoiceComponent } from './components/invoices/add-invoice/add-invoice.component';
 import { AllInvoicesComponent } from './components/invoices/all-invoices/all-invoices.component';
 
-
+//route path
 const appRoutes:Routes = [
   {path:'items/add',component:AddItemComponent},
   {path:'categories/add',component:AddCategoryComponent, data: { update: true }},

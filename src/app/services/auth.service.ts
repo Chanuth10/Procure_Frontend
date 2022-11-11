@@ -21,7 +21,7 @@ export class AuthService {
       'Content-Type': 'application/json'
     }),
   }
-
+  
   constructor(
     private httpService:HttpService<any>,
     private cookieService: CookieService,

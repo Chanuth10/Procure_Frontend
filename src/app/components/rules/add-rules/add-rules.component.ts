@@ -32,7 +32,7 @@ export class AddRulesComponent implements OnInit {
 
   userTypes = [
     { value: 'procurement_staff', viewValue: 'Procurement Staff'},
-    { value: 'staff_supervisor', viewValue: 'Office Manager'},
+    { value: 'staff_supervisor', viewValue: 'Staff_Supervisor'},
     { value: 'site_manager', viewValue: 'Site Manager'}
   ];
 
