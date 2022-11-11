@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./all-order.component.css']
 })
 export class AllOrderComponent implements OnInit {
-  buttons = [{type:"save",name:'+New Order',route:'orders/add'}]
+ 
   displayedColumns: string[] = ['select', 'orderReferenceNo', 'supplier','site','expectedDeliveryDate','status','total','actions'];
   url = "api/orders";
   columns = [

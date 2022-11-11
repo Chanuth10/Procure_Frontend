@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable, ObservedValueOf } from 'rxjs';
-import {Approval} from "../../components/approval/approval.model";
 import {HttpService} from "../http.service";
 
 @Injectable({
